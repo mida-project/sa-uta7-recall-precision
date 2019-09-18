@@ -18,8 +18,7 @@ __credits__     = [
   "Carlos Santiago",
   "Jacinto C. Nascimento",
   "Pedro Miraldo",
-  "Nuno Nunes",
-  "Duarte Figueirôa"
+  "Nuno Nunes"
 ]
 
 import logging
