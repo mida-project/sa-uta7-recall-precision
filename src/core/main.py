@@ -57,6 +57,15 @@ sys.path.insert(0, methodsAbsPath)
 
 # Importing available methods
 
+# Appending techniques path
+techsPath = os.path.join(joinPath, 'techniques')
+techsAbsPath = os.path.abspath(techsPath)
+sys.path.append(techsAbsPath)
+sys.path.insert(0, techsAbsPath)
+
+# Importing available techniques
+from precisionHeatmaps import *
+
 # Appending tests path
 testsPath = os.path.join(joinPath, 'tests')
 testsAbsPath = os.path.abspath(testsPath)
@@ -66,7 +75,8 @@ sys.path.insert(0, testsAbsPath)
 # Importing available tests
 
 def main():
-  print(c023)
+  #precHeatmap(fp307)
+  print("Hey!!")
 
 if __name__ == '__main__':
   main()
