@@ -164,7 +164,7 @@ We would like to convey [Google](https://google.com) from their [Google Sheets A
 </span>
 <span class="image">
   <a href="https://www.m-iti.org/" title="M-ITI" target="_blank">
-    <img src="https://github.com/mida-project/meta/blob/master/brands/iti_footer.png" alt="inesc-id" width="20%" />
+    <img src="https://github.com/mida-project/meta/blob/master/brands/iti_footer.png" alt="iti" width="20%" />
   </a>
 </span>
 <span class="image">
