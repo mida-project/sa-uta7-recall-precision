@@ -57,6 +57,15 @@ sys.path.insert(0, methodsAbsPath)
 
 # Importing available methods
 
+# Appending structures path
+strcPath = os.path.join(joinPath, 'structures')
+strcAbsPath = os.path.abspath(strcPath)
+sys.path.append(strcAbsPath)
+sys.path.insert(0, strcAbsPath)
+
+# Importing available structures
+from counters import *
+
 # Appending techniques path
 techsPath = os.path.join(joinPath, 'techniques')
 techsAbsPath = os.path.abspath(techsPath)
@@ -74,9 +83,21 @@ sys.path.insert(0, testsAbsPath)
 
 # Importing available tests
 
+# ============================== #
+# ============================== #
+
+# ============================== #
+# ============================== #
+#       VARIABLES ASSIGNMENT     #
+# ============================== #
+# ============================== #
+arr_count_prec = acp
+
+# ============================== #
+# ============================== #
+
 def main():
-  #precHeatmap(fp307)
-  print("Hey!!")
+  precHeatmap(arr_count_prec)
 
 if __name__ == '__main__':
   main()

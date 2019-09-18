@@ -35,25 +35,14 @@ pathAbsPath = os.path.abspath(joinPath)
 # the Python path (wants absolute paths).
 sys.path.append(pathAbsPath)
 
-# Appending structures path
-strcPath = os.path.join(joinPath, 'structures')
-strcAbsPath = os.path.abspath(strcPath)
-sys.path.append(strcAbsPath)
-sys.path.insert(0, strcAbsPath)
-
-# Importing available structures
-from counters import *
-
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.io as pio
 
-#uniform_data = np.random.rand(6, 6)
-
-arr_count_prec = acp
-
-figPrecHeatmap = plt.figure(figsize = (10,10))
-snsPrecHeatmap = sns.heatmap(arr_count_prec, annot = True, cbar = False)
+def precHeatmap(arrayCounters):
+	print(arrayCounters)
+	figPrecHeatmap = plt.figure(figsize = (10,10))
+	snsPrecHeatmap = sns.heatmap(arrayCounters, annot = True, cbar = False)
 
 # ==================== END File ==================== #
