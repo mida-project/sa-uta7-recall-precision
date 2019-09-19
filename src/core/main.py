@@ -32,14 +32,14 @@ from os import path
 basePath = os.path.dirname(__file__)
 
 # The path to the repository "src" folder.
-joinPath = os.path.join(basePath, '..')
-pathAbsPath = os.path.abspath(joinPath)
+joinRepoSrcPath = os.path.join(basePath, '..')
+pathRepoSrcAbsPath = os.path.abspath(joinRepoSrcPath)
 # Add the directory containing the module to
 # the Python path (wants absolute paths).
-sys.path.append(pathAbsPath)
+sys.path.append(pathRepoSrcAbsPath)
 
 # Appending variables path
-varsPath = os.path.join(joinPath, 'variables')
+varsPath = os.path.join(joinRepoSrcPath, 'variables')
 varsAbsPath = os.path.abspath(varsPath)
 sys.path.append(varsAbsPath)
 sys.path.insert(0, varsAbsPath)
@@ -50,15 +50,16 @@ from messagesSevenRecPrec import *
 from pathsSevenRecPrec import *
 
 # Appending methods path
-methodsPath = os.path.join(joinPath, 'methods')
+methodsPath = os.path.join(joinRepoSrcPath, 'methods')
 methodsAbsPath = os.path.abspath(methodsPath)
 sys.path.append(methodsAbsPath)
 sys.path.insert(0, methodsAbsPath)
 
 # Importing available methods
+from classifications import *
 
 # Appending structures path
-strcPath = os.path.join(joinPath, 'structures')
+strcPath = os.path.join(joinRepoSrcPath, 'structures')
 strcAbsPath = os.path.abspath(strcPath)
 sys.path.append(strcAbsPath)
 sys.path.insert(0, strcAbsPath)
@@ -67,7 +68,7 @@ sys.path.insert(0, strcAbsPath)
 from counters import *
 
 # Appending techniques path
-techsPath = os.path.join(joinPath, 'techniques')
+techsPath = os.path.join(joinRepoSrcPath, 'techniques')
 techsAbsPath = os.path.abspath(techsPath)
 sys.path.append(techsAbsPath)
 sys.path.insert(0, techsAbsPath)
@@ -76,7 +77,7 @@ sys.path.insert(0, techsAbsPath)
 from precisionHeatmaps import *
 
 # Appending tests path
-testsPath = os.path.join(joinPath, 'tests')
+testsPath = os.path.join(joinRepoSrcPath, 'tests')
 testsAbsPath = os.path.abspath(testsPath)
 sys.path.append(testsAbsPath)
 sys.path.insert(0, testsAbsPath)
@@ -86,11 +87,21 @@ sys.path.insert(0, testsAbsPath)
 # ============================== #
 # ============================== #
 
+# see: sentry.io
+import sentry_sdk
+sentry_sdk.init(lnk001)
+
+# ============================== #
+# ============================== #
+# ============================== #
+# ============================== #
+
 # ============================== #
 # ============================== #
 #       VARIABLES ASSIGNMENT     #
 # ============================== #
 # ============================== #
+
 arr_count_prec = acp
 
 # ============================== #

@@ -29,11 +29,11 @@ from os import path
 basePath = os.path.dirname(__file__)
 
 # The path to the repository "src" folder.
-joinPath = os.path.join(basePath, '..')
-pathAbsPath = os.path.abspath(joinPath)
+joinRepoSrcPath = os.path.join(basePath, '..')
+pathRepoSrcAbsPath = os.path.abspath(joinRepoSrcPath)
 # Add the directory containing the module to
 # the Python path (wants absolute paths).
-sys.path.append(pathAbsPath)
+sys.path.append(pathRepoSrcAbsPath)
 
 import pandas as pd
 import seaborn as sns

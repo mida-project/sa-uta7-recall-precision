@@ -29,14 +29,14 @@ from os import path
 basePath = os.path.dirname(__file__)
 
 # The path to the repository "src" folder.
-joinPath = os.path.join(basePath, '..')
-pathAbsPath = os.path.abspath(joinPath)
+joinRepoSrcPath = os.path.join(basePath, '..')
+pathRepoSrcAbsPath = os.path.abspath(joinRepoSrcPath)
 # Add the directory containing the module to
 # the Python path (wants absolute paths).
-sys.path.append(pathAbsPath)
+sys.path.append(pathRepoSrcAbsPath)
 
 # Appending countings path
-consPath = os.path.join(joinPath, 'constants')
+consPath = os.path.join(joinRepoSrcPath, 'constants')
 consAbsPath = os.path.abspath(consPath)
 sys.path.append(consAbsPath)
 sys.path.insert(0, consAbsPath)
