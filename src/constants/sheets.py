@@ -89,7 +89,7 @@ birads_assis_abs_path = os.path.abspath(birads_assis_dir)
 
 df_birads_assis = pd.read_csv(birads_assis_abs_path, delimiter=',')
 df_birads_crrnt = pd.read_csv(birads_crrnt_abs_path, delimiter=',')
-df_birads_phy = pd.read_csv(birads_phy_abs_path, delimiter=',')
+df_birads_phys = pd.read_csv(birads_phy_abs_path, delimiter=',')
 df_birads_real = pd.read_csv(birads_real_abs_path, delimiter=',')
 
 # ============================== #

@@ -102,13 +102,18 @@ sentry_sdk.init(lnk001)
 # ============================== #
 # ============================== #
 
-arr_count_prec = acp
+# Precisions: Physician + Assistant vs Real
+arr_count_prec_001 = acp001
+
+# Precisions: Physician vs Real
+arr_count_prec_002 = acp002
 
 # ============================== #
 # ============================== #
 
 def main():
-  precHeatmap(arr_count_prec)
+  precHeatmap(arr_count_prec_001)
+  precHeatmap(arr_count_prec_002)
 
 if __name__ == '__main__':
   main()
