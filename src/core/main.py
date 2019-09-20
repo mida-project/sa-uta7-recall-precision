@@ -74,7 +74,7 @@ sys.path.append(techsAbsPath)
 sys.path.insert(0, techsAbsPath)
 
 # Importing available techniques
-from precisionHeatmaps import *
+from confusions import *
 
 # Appending tests path
 testsPath = os.path.join(joinRepoSrcPath, 'tests')
@@ -102,18 +102,18 @@ sentry_sdk.init(lnk001)
 # ============================== #
 # ============================== #
 
-# Precisions: Physician + Assistant vs Real
-arr_count_prec_001 = acp001
+# Classifications: Physician + Assistant vs Real
+arr_count_class_001 = acc001
 
-# Precisions: Physician vs Real
-arr_count_prec_002 = acp002
+# Classifications: Physician vs Real
+arr_count_class_002 = acc002
 
 # ============================== #
 # ============================== #
 
 def main():
-  precHeatmap(arr_count_prec_001)
-  precHeatmap(arr_count_prec_002)
+  confMatrixHeatmap(arr_count_class_001)
+  confMatrixHeatmap(arr_count_class_002)
 
 if __name__ == '__main__':
   main()

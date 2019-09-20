@@ -22,6 +22,7 @@ __credits__     = [
 
 import os
 import sys
+import logging
 
 from os import path
 
@@ -40,9 +41,9 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.io as pio
 
-def precHeatmap(arrayCounters):
-	print(arrayCounters)
-	figPrecHeatmap = plt.figure(figsize = (10,10))
-	snsPrecHeatmap = sns.heatmap(arrayCounters, annot = True, cbar = False)
+def confMatrixHeatmap(arrayCounters):
+	logging.debug(arrayCounters)
+	figConfMatrixHeatmap = plt.figure(figsize = (10,10))
+	snsConfMatrixHeatmap = sns.heatmap(arrayCounters, annot = True, cbar = False)
 
 # ==================== END File ==================== #
