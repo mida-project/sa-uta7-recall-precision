@@ -32,7 +32,7 @@ log = logging.getLogger()
 # see:
 #
 # https://docs.python.org/3/library/logging.html
-levelNameToSet = 'DEBUG'
+levelNameToSet = 'CRITICAL'
 level = logging.getLevelName(levelNameToSet)
 log.setLevel(level)
 
