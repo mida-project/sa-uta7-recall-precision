@@ -129,35 +129,43 @@ We would like to convey [Google](https://google.com) from their [Google Sheets A
 
 Our organization is a non-profit organization. However, we have many expenses across our activity. From infrastructure to service expenses, we need some money, as well as help, to support our team and projects.
 
-<a href="https://opencollective.com/oppr" target="_blank">
-<img src="https://opencollective.com/oppr/tiers/backer.svg" width="220">
-</a>
+<span class="image">
+  <a href="https://opencollective.com/oppr" target="_blank">
+    <img src="https://opencollective.com/oppr/tiers/backer.svg" width="220">
+  </a>
+</span>
 
 ### Contributors
 
 This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
 
-<a href="https://github.com/badges/oppr/graphs/contributors">
-<img src="https://opencollective.com/oppr/contributors.svg?width=890" />
-</a>
+<span class="image">
+  <a href="https://github.com/badges/oppr/graphs/contributors">
+    <img src="https://opencollective.com/oppr/contributors.svg?width=890" />
+  </a>
+</span>
 
 ### Backers
 
 Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/oppr#backer)]
 
-<a href="https://opencollective.com/oppr#backers" target="_blank">
-<img src="https://opencollective.com/oppr/backers.svg?width=890">
-</a>
+<span class="image">
+  <a href="https://opencollective.com/oppr#backers" target="_blank">
+    <img src="https://opencollective.com/oppr/backers.svg?width=890">
+  </a>
+</span>
 
 ### Sponsors
 
 Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/oppr#sponsor)]
 
-<a href="https://opencollective.com/oppr/sponsor/0/website" target="_blank">
-<img src="https://opencollective.com/oppr/sponsor/0/avatar.svg">
-</a>
+<span class="image">
+  <a href="https://opencollective.com/oppr/sponsor/0/website" target="_blank">
+    <img src="https://opencollective.com/oppr/sponsor/0/avatar.svg">
+  </a>
+</span>
 
-<br>
+<br />
 
 <span class="image">
   <a href="http://www.fct.pt/" title="FCT" target="_blank">
