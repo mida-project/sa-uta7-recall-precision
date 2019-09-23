@@ -2,7 +2,8 @@
 #coding=utf-8
 
 """
-.py:
+countings.py: this file has the countings constants for computing
+              our set of heatmaps.
 """
 
 __author__      = "Francisco Maria Calisto"

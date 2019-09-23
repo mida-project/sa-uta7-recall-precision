@@ -2,7 +2,9 @@
 #coding=utf-8
 
 """
-.py: 
+classifications.py: since we need to measure the total number
+                    of occurrences for a specific case, we have
+                    here the set of methods to do it.
 """
 
 __author__      = "Francisco Maria Calisto"

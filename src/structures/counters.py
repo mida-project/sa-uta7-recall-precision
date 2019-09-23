@@ -2,7 +2,8 @@
 #coding=utf-8
 
 """
-.py:
+counters.py: because we are using complex structures, we think
+             it is a good idea to have a file for the purpose.
 """
 
 __author__      = "Francisco Maria Calisto"

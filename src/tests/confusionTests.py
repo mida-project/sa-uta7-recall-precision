@@ -2,7 +2,11 @@
 #coding=utf-8
 
 """
-.py: 
+confusionTests.py: our purpose is to create a bunch of heatmaps for
+                   our recall and precision probleam. For that, and
+                   while we are using the same dataset, as always, we
+                   want to test the resulted computation with static
+                   values.
 """
 
 __author__      = "Francisco Maria Calisto"

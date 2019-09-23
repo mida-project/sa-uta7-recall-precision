@@ -2,7 +2,8 @@
 #coding=utf-8
 
 """
-precisionHeatmaps.py:
+confusions.py: the presented file, serves the purpose of ploting our set
+               of figures and respective heatmaps from techniques.
 """
 
 __author__      = "Francisco Maria Calisto"

@@ -2,7 +2,10 @@
 #coding=utf-8
 
 """
-.py: 
+sheets.py: to read our data, we are using several datasets. For that,
+           we need to read a bunch of csv files. The presented file,
+           will serve this purpose. It is here, where we are reading
+           our datasets, provinding several variables to be used.
 """
 
 __author__      = "Francisco Maria Calisto"
