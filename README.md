@@ -17,6 +17,7 @@ This repository aims to assemble a set of [`methods/`](methods/) for our statist
 > Often, we think that precision and recall both indicate accuracy of the model. While that is somewhat true, there is a deeper, distinct meaning of each of these terms. Precision means the percentage of your results which are relevant. On the other hand, recall refers to the percentage of total relevant results correctly classified by your algorithm. Undoubtedly, this is a hard concept to grasp in the first go. So, let me try to explain it with Jack’s example.
 
 In "*[Precision vs Recall](https://towardsdatascience.com/precision-vs-recall-386cf9f89488)*", May 11, 2018 on [Medium](https://medium.com/) at the [Towards Data Scienc](https://towardsdatascience.com/) channel.
+
 &#8212; [Shruti Saxena](https://towardsdatascience.com/@shrutisaxena0617)
 
 The hereby repository is dependent from the [`sheet-reader`](https://github.com/MIMBCD-UI/sheet-reader) repository, so please first of all clone that to your machine. The work is submitted to top [Human-Computer Interaction (HCI)](https://www.interaction-design.org/literature/topics/human-computer-interaction) conferences of [Computer Science (CS)](http://www.guide2research.com/). Results will be published on both [Current vs Assistant](https://www.overleaf.com/project/5d07b177aa894d7b4d4638e4) ([CHI 2020](https://chi2020.acm.org/)) and [Human-AI Interactions](https://www.overleaf.com/project/5d07b177aa894d7b4d4638e4) ([IUI 2020](https://iui.acm.org/2020/)) papers for higher context.
