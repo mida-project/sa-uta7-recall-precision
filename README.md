@@ -2,7 +2,28 @@
 
 <img src="https://github.com/mida-project/meta/blob/master/banners/statistical-analysis.png?raw=true" width="100%" />
 
-This repository aims to assemble a set of [`methods/`](methods/) for our statistical analysis of the [Recall &amp; Precision Problem](https://dspace2.flinders.edu.au/xmlui/bitstream/handle/2328/27165/Powers%20Evaluation.pdf?sequence=1&isAllowed=y) from [UTA7](https://github.com/MIMBCD-UI/prototype-breast-screening/wiki/User-Research#test-7-multi-modality-vs-assistant-chi2020-). We use several statistical models (e.g.: [ANOVA](https://en.wikipedia.org/wiki/Analysis_of_variance), [Kruskal-Wallis One-Way Analysis of Variance](https://en.wikipedia.org/wiki/Kruskal%E2%80%93Wallis_one-way_analysis_of_variance), [Mann-Whitney U test](https://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U_test), etc...) to analyse our data and deeper understanding it. For instance, we used the [Kruskal-Wallis One-Way Analysis of Variance](https://en.wikipedia.org/wiki/Kruskal%E2%80%93Wallis_one-way_analysis_of_variance) for our [ISS'17](https://iss2017.acm.org/) Publications ([Paper](https://dl.acm.org/citation.cfm?id=3134111) & [Poster](https://iss2017.acm.org/program/posters/#iss43-ex)), analyzing the **Results** of our data. The hereby repository is dependent from the [`sheet-reader`](https://github.com/MIMBCD-UI/sheet-reader) repository, so please first of all clone that to your machine. The work is submitted to top [Human-Computer Interaction (HCI)](https://www.interaction-design.org/literature/topics/human-computer-interaction) conferences of [Computer Science (CS)](http://www.guide2research.com/). Results will be published on both [Current vs Assistant](https://www.overleaf.com/project/5d07b177aa894d7b4d4638e4) ([CHI 2020](https://chi2020.acm.org/)) and [Human-AI Interactions](https://www.overleaf.com/project/5d07b177aa894d7b4d4638e4) ([IUI 2020](https://iui.acm.org/2020/)) papers for higher context.
+[![MIT](https://flat.badgen.net/github/license/mida-project/sa-uta7-recall-precision)](https://github.com/mida-project/sa-uta7-recall-precision/blob/master/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/python?style=flat-square)](https://pypi.org/)
+[![Last commit](https://img.shields.io/github/last-commit/mida-project/sa-uta7-recall-precision?style=flat-square)](https://github.com/mida-project/sa-uta7-recall-precision/commits/master)
+[![HitCount](http://hits.dwyl.io/opprDev/medical-image-downloader.svg)](http://hits.dwyl.io/opprDev/medical-image-downloader)
+[![OpenCollective](https://opencollective.com/oppr/backers/badge.svg?style=flat-square)](#backers)
+[![OpenCollective](https://opencollective.com/oppr/sponsors/badge.svg?style=flat-square)](#sponsors)
+[![Gitter](https://img.shields.io/gitter/room/gitterHQ/gitter.svg?style=flat-square)](https://gitter.im/opprTeam)
+[![Status](https://flat.badgen.net/github/status/mida-project/sa-uta7-recall-precision)](https://circleci.com/gh/mida-project/sa-uta7-recall-precision)
+[![Twitter](https://flat.badgen.net/twitter/follow/opprGroup)](https://twitter.com/opprGroup)
+
+This repository aims to assemble a set of [`methods/`](methods/) for our statistical analysis of the [Recall &amp; Precision](https://dspace2.flinders.edu.au/xmlui/bitstream/handle/2328/27165/Powers%20Evaluation.pdf?sequence=1&isAllowed=y) problem from [UTA7](https://github.com/MIMBCD-UI/prototype-breast-screening/wiki/User-Research#test-7-multi-modality-vs-assistant-chi2020-). For the purpose, we are computing several heatmaps representing our **[Confusion Matrix](https://en.wikipedia.org/wiki/Confusion_matrix)** (or **[Error Matrix](https://en.wikipedia.org/wiki/Confusion_matrix)**). In short, a **[Confusion Matrix](https://en.wikipedia.org/wiki/Confusion_matrix)** is a short description of prediction results on a classification problem. In our publications, we are measuring the frequency of these predictions for our *[datasets](https://github.com/BreastScreening/meta/wiki/Datasets)*. The *[datasets](https://github.com/BreastScreening/meta/wiki/Datasets)* are representing our [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning) prediction results of the [BIRADS](http://www.radiologyassistant.nl/en/p53b4082c92130/bi-rads-for-mammography-and-ultrasound-2013.html) values on [breast cancer](https://www.breastcancer.org/). From here, we will address the [Recall &amp; Precision](https://dspace2.flinders.edu.au/xmlui/bitstream/handle/2328/27165/Powers%20Evaluation.pdf?sequence=1&isAllowed=y) problem. But first, lets shortly explain each. **Recall** is the ration for the total number of correctly classified positive [BIRADS](http://www.radiologyassistant.nl/en/p53b4082c92130/bi-rads-for-mammography-and-ultrasound-2013.html) values divided by the total number of predicted positive [BIRADS](http://www.radiologyassistant.nl/en/p53b4082c92130/bi-rads-for-mammography-and-ultrasound-2013.html) samples. On the other hand, **Precision** is the total number of correctly classified positive [BIRADS](http://www.radiologyassistant.nl/en/p53b4082c92130/bi-rads-for-mammography-and-ultrasound-2013.html) samples divided by the total number of predicted positive [BIRADS](http://www.radiologyassistant.nl/en/p53b4082c92130/bi-rads-for-mammography-and-ultrasound-2013.html) examples.
+
+> Often, we think that precision and recall both indicate accuracy of the model. While that is somewhat true, there is a deeper, distinct meaning of each of these terms. Precision means the percentage of your results which are relevant. On the other hand, recall refers to the percentage of total relevant results correctly classified by your algorithm. Undoubtedly, this is a hard concept to grasp in the first go. So, let me try to explain it with Jack’s example.
+
+In "*[Precision vs Recall](https://towardsdatascience.com/precision-vs-recall-386cf9f89488)*", May 11, 2018 on [Medium](https://medium.com/) at the [Towards Data Scienc](https://towardsdatascience.com/) channel.
+- [Shruti Saxena](https://towardsdatascience.com/@shrutisaxena0617)
+
+The hereby repository is dependent from the [`sheet-reader`](https://github.com/MIMBCD-UI/sheet-reader) repository, so please first of all clone that to your machine. The work is submitted to top [Human-Computer Interaction (HCI)](https://www.interaction-design.org/literature/topics/human-computer-interaction) conferences of [Computer Science (CS)](http://www.guide2research.com/). Results will be published on both [Current vs Assistant](https://www.overleaf.com/project/5d07b177aa894d7b4d4638e4) ([CHI 2020](https://chi2020.acm.org/)) and [Human-AI Interactions](https://www.overleaf.com/project/5d07b177aa894d7b4d4638e4) ([IUI 2020](https://iui.acm.org/2020/)) papers for higher context.
+
+<a href="https://www.patreon.com/oppr" target="_blank">
+<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>
 
 ## Pre-Requisites
 
@@ -104,7 +125,37 @@ We would like to convey [Google](https://google.com) from their [Google Sheets A
 
 - [Francisco Maria Calisto](http://www.franciscocalisto.me/) [[ResearchGate](https://www.researchgate.net/profile/Francisco_Maria_Calisto) | [GitHub](https://github.com/FMCalisto) | [Twitter](https://twitter.com/FMCalisto) | [LinkedIn](https://www.linkedin.com/in/fmcalisto/)]
 
-## Sponsors
+## Supporters
+
+Our organization is a non-profit organization. However, we have many expenses across our activity. From infrastructure to service expenses, we need some money, as well as help, to support our team and projects.
+
+<a href="https://opencollective.com/oppr" target="_blank">
+<img src="https://opencollective.com/oppr/tiers/backer.svg" width="220">
+</a>
+
+### Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+
+<a href="https://github.com/badges/oppr/graphs/contributors">
+<img src="https://opencollective.com/oppr/contributors.svg?width=890" />
+</a>
+
+### Backers
+
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/oppr#backer)]
+
+<a href="https://opencollective.com/oppr#backers" target="_blank">
+<img src="https://opencollective.com/oppr/backers.svg?width=890">
+</a>
+
+### Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/oppr#sponsor)]
+
+<a href="https://opencollective.com/oppr/sponsor/0/website" target="_blank">
+<img src="https://opencollective.com/oppr/sponsor/0/avatar.svg">
+</a>
 
 <span class="image">
   <a href="http://www.fct.pt/" title="FCT" target="_blank">
@@ -132,7 +183,7 @@ We would like to convey [Google](https://google.com) from their [Google Sheets A
   </a>
 </span>
 
-## Departments
+#### Departments
 
 <span class="image">
   <a href="http://dei.tecnico.ulisboa.pt" title="DEI" target="_blank">
@@ -145,7 +196,7 @@ We would like to convey [Google](https://google.com) from their [Google Sheets A
   </a>
 </span>
 
-## Laboratories
+#### Laboratories
 
 <span class="image">
   <a href="http://sipg.isr.tecnico.ulisboa.pt/" title="SIPG" target="_blank">
@@ -173,7 +224,7 @@ We would like to convey [Google](https://google.com) from their [Google Sheets A
   </a>
 </span>
 
-## Domain
+#### Domain
 
 <span class="image">
   <a href="https://europa.eu/" title="EU" target="_blank">
