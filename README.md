@@ -157,7 +157,7 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 <img src="https://opencollective.com/oppr/sponsor/0/avatar.svg">
 </a>
 
-</br>
+<br>
 
 <span class="image">
   <a href="http://www.fct.pt/" title="FCT" target="_blank">
