@@ -20,7 +20,7 @@ In "*[Precision vs Recall](https://towardsdatascience.com/precision-vs-recall-38
 
 &#8212; [Shruti Saxena](https://towardsdatascience.com/@shrutisaxena0617)
 
-The hereby repository is dependent from the [`sheet-reader`](https://github.com/MIMBCD-UI/sheet-reader) repository, so please first of all clone that to your machine. The work is submitted to top [Human-Computer Interaction (HCI)](https://www.interaction-design.org/literature/topics/human-computer-interaction) conferences of [Computer Science (CS)](http://www.guide2research.com/). Results will be published on both [Current vs Assistant](https://www.overleaf.com/project/5d07b177aa894d7b4d4638e4) ([CHI 2020](https://chi2020.acm.org/)) and [Human-AI Interactions](https://www.overleaf.com/project/5d07b177aa894d7b4d4638e4) ([IUI 2020](https://iui.acm.org/2020/)) papers for higher context. For more information regarding our results, please follow our set of [`notebooks/`](src/notebooks/). You can start by the [`confusions.ipynb`](src/notebooks/confusions.ipynb) file, for example.
+The hereby repository is dependent from the [`sheet-reader`](https://github.com/MIMBCD-UI/sheet-reader) repository, so please first of all clone that to your machine. The work is submitted to top [Human-Computer Interaction (HCI)](https://www.interaction-design.org/literature/topics/human-computer-interaction) conferences of [Computer Science (CS)](http://www.guide2research.com/). Results will be published on both [Current vs Assistant](https://www.overleaf.com/project/5d07b177aa894d7b4d4638e4) ([CHI 2020](https://chi2020.acm.org/)) and [Human-AI Interactions](https://www.overleaf.com/project/5d07b177aa894d7b4d4638e4) ([IUI 2020](https://iui.acm.org/2020/)) papers for higher context. For more information regarding our results, please follow our set of [`notebooks/`](src/notebooks/). You can start by the [`confusions.ipynb`](src/notebooks/confusions.ipynb) file, for example. In the repository [wiki](https://github.com/mida-project/sa-uta7-recall-precision/wiki) we further address several other questions and results.
 
 <a href="https://www.patreon.com/oppr" target="_blank">
 <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
@@ -126,9 +126,9 @@ We would like to convey [Google](https://google.com) from their [Google Sheets A
 
 - [Francisco Maria Calisto](http://www.franciscocalisto.me/) [[ResearchGate](https://www.researchgate.net/profile/Francisco_Maria_Calisto) | [GitHub](https://github.com/FMCalisto) | [Twitter](https://twitter.com/FMCalisto) | [LinkedIn](https://www.linkedin.com/in/fmcalisto/)]
 
-## Supporters
+## Supporting
 
-Our organization is a non-profit organization. However, we have many expenses across our activity. From infrastructure to service expenses, we need some money, as well as help, to support our team and projects.
+Our organization is a non-profit organization. However, we have many needs across our activity. From infrastructure to service needs, we need some time and contribution, as well as help, to support our team and projects.
 
 <span class="image">
   <a href="https://opencollective.com/oppr" target="_blank">
@@ -141,7 +141,7 @@ Our organization is a non-profit organization. However, we have many expenses ac
 This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
 
 <span class="image">
-  <a href="https://github.com/badges/oppr/graphs/contributors">
+  <a href="graphs/contributors">
     <img src="https://opencollective.com/oppr/contributors.svg?width=890" />
   </a>
 </span>
