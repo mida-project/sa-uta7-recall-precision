@@ -112,8 +112,8 @@ arr_count_class_002 = acc002
 # ============================== #
 
 def main():
-  confMatrixHeatmap(arr_count_class_001)
-  confMatrixHeatmap(arr_count_class_002)
+  confMatrixHeatmapToHtml(arr_count_class_001, fp307)
+  confMatrixHeatmapToHtml(arr_count_class_002, fp308)
 
 if __name__ == '__main__':
   main()

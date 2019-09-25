@@ -72,6 +72,11 @@ uta7sacSrcPath = os.path.join(uta7sacAbsPath, 'src', '')
 uta7sacSrcAbsPath = os.path.abspath(uta7sacSrcPath)
 sys.path.append(uta7sacSrcAbsPath)
 
+# Appending UTA7 - SAC: Assets path.
+uta7sacAssestsPath = os.path.join(uta7sacAbsPath, 'assets', '')
+uta7sacAssestsAbsPath = os.path.abspath(uta7sacAssestsPath)
+sys.path.append(uta7sacAssestsAbsPath)
+
 # ============================== #
 #       FILE & Folder NAMES      #
 # ============================== #
@@ -81,6 +86,7 @@ ext102 = '.json'
 ext103 = '.dcm'
 ext104 = '.csv'
 ext105 = '.html'
+ext106 = '.png'
 
 mul001 = '*' + ext101
 mul002 = '*' + ext102
@@ -88,9 +94,11 @@ mul002 = '*' + ext102
 scp01 = '_'
 scp02 = '-'
 
-pn007 = 'precision_heatmap'
+pn007 = 'precision_heatmap_assis'
+pn008 = 'precision_heatmap_real'
 
-pnc007 = pn007 + ext105
+pnc007 = pn007 + ext106
+pnc008 = pn008 + ext106
 
 # ============================== #
 # ============================== #
@@ -106,7 +114,8 @@ pnc007 = pn007 + ext105
 # ============================== #
 
 # Precision Heatmap
-fp307 = os.path.join(uta7sacSrcAbsPath , pnc007)
+fp307 = os.path.join(uta7sacAssestsAbsPath , pnc007)
+fp308 = os.path.join(uta7sacAssestsAbsPath , pnc008)
 
 # ============================== #
 # ============================== #

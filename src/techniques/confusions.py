@@ -41,10 +41,19 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.io as pio
+import plotly.graph_objects as go
 
 def confMatrixHeatmap(arrayCounters):
 	logging.debug(arrayCounters)
 	figConfMatrixHeatmap = plt.figure(figsize = (10,10))
 	snsConfMatrixHeatmap = sns.heatmap(arrayCounters, annot = True, cbar = False)
+	snsConfMatrixHeatmap.set(xlabel='Total Number of Actual BIRADS', ylabel='Total Number of Provided BIRADS')
+
+def confMatrixHeatmapToHtml(arrayCounters, fileName):
+	logging.debug(arrayCounters)
+	figConfMatrixHeatmap = plt.figure(figsize = (10,10))
+	snsConfMatrixHeatmap = sns.heatmap(arrayCounters, annot = True, cbar = False)
+	snsConfMatrixHeatmap.set(xlabel='Total Number of Actual BIRADS', ylabel='Total Number of Provided BIRADS')
+	plt.savefig(fileName)
 
 # ==================== END File ==================== #
