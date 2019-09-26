@@ -90,10 +90,37 @@ birads_assis_abs_path = os.path.abspath(birads_assis_dir)
 # ============================== #
 # ============================== #
 
-df_birads_assis = pd.read_csv(birads_assis_abs_path, delimiter=',')
-df_birads_crrnt = pd.read_csv(birads_crrnt_abs_path, delimiter=',')
-df_birads_phys = pd.read_csv(birads_phy_abs_path, delimiter=',')
-df_birads_real = pd.read_csv(birads_real_abs_path, delimiter=',')
+df_birads_assis = pd.read_csv(birads_assis_abs_path, delimiter = ',')
+df_birads_crrnt = pd.read_csv(birads_crrnt_abs_path, delimiter = ',')
+df_birads_phys = pd.read_csv(birads_phy_abs_path, delimiter = ',')
+df_birads_real = pd.read_csv(birads_real_abs_path, delimiter = ',')
+
+# ============================== #
+# ============================== #
+# ============================== #
+# ============================== #
+
+# ============================== #
+# ============================== #
+#         SPECIFIC ARRAYS        #
+# ============================== #
+# ============================== #
+
+df_birads_assis_l = df_birads_assis.low
+df_birads_assis_m = df_birads_assis.medium
+df_birads_assis_h = df_birads_assis.high
+
+df_birads_crrnt_l = df_birads_crrnt.low
+df_birads_crrnt_m = df_birads_crrnt.medium
+df_birads_crrnt_h = df_birads_crrnt.high
+
+df_birads_phys_l = df_birads_phys.low
+df_birads_phys_m = df_birads_phys.medium
+df_birads_phys_h = df_birads_phys.high
+
+df_birads_real_l = df_birads_real.low
+df_birads_real_m = df_birads_real.medium
+df_birads_real_h = df_birads_real.high
 
 # ============================== #
 # ============================== #

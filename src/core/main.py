@@ -75,6 +75,7 @@ sys.path.insert(0, techsAbsPath)
 
 # Importing available techniques
 from confusions import *
+from evaluations import *
 
 # Appending tests path
 testsPath = os.path.join(joinRepoSrcPath, 'tests')
