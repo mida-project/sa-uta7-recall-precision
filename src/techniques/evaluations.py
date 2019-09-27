@@ -48,6 +48,6 @@ from classifiers import *
 
 def evalModelSpecific(df_real, df_pred):
 	classConfusionMatrix(df_real, df_pred)
-	classReport(df_real, df_pred)
+	#classReport(df_real, df_pred)
 
 # ==================== END File ==================== #
