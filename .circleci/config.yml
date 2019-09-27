@@ -1,6 +1,7 @@
 version: 2
 jobs:
   build:  # required for runs that don't use workflows
+    machine: true
     working_directory: ~/Git/sa-uta7-recall-precision
     steps:
       - checkout  # checkout source code to working directory
