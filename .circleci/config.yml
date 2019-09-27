@@ -5,4 +5,4 @@ jobs:
     working_directory: ~/Git/sa-uta7-recall-precision
     steps:
       - checkout
-      - run: sudo python -m pip install --upgrade pips
+      - run: python3 src/core/main.py
