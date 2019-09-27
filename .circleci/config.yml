@@ -6,8 +6,5 @@ jobs:
     steps:
       - checkout  # checkout source code to working directory
       - run:
-        name: "Set Python Version"
-        command: pyenv global 3.7.0
-      - run:
         name: "Do things!"
         command: python3 src/core/main.py
