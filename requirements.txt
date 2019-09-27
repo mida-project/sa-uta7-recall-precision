@@ -52,10 +52,6 @@ jdcal==1.4
 jedi==0.13.2
 json-tricks==3.13.1
 jsonschema==2.6.0
-jupyter==1.0.0
-jupyter-client==5.2.4
-jupyter-console==6.0.0
-jupyter-core==4.4.0
 kiwisolver==1.0.1
 MarkupSafe==1.1.0
 matplotlib==3.0.3
