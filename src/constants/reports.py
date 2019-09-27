@@ -24,6 +24,7 @@ __credits__     = [
 import os
 import sys
 import logging
+import operator
 
 from os import path
 
@@ -55,11 +56,39 @@ sys.path.insert(0, techsAbsPath)
 # Importing available techniques
 from evaluations import *
 
-print(arr_birads_real_l)
-print(arr_birads_phys_l)
+arr_birads_real_total = [*arr_birads_real_l, *arr_birads_real_m, *arr_birads_real_h]
+arr_birads_phys_total = [*arr_birads_phys_l, *arr_birads_phys_m, *arr_birads_phys_h]
 
-eval_birads_real_phys_l = evalModelSpecific(arr_birads_real_l, arr_birads_phys_l)
+ebrplccm, ebrplcr = evalModelSpecific(arr_birads_real_l, arr_birads_phys_l)
+ebrpmccm, ebrpmcr = evalModelSpecific(arr_birads_real_m, arr_birads_phys_m)
+ebrphccm, ebrphcr = evalModelSpecific(arr_birads_real_h, arr_birads_phys_h)
 
-print(eval_birads_real_phys_l)
+ebrptccm, ebrptcr = evalModelSpecific(arr_birads_real_total, arr_birads_phys_total)
+
+eval_birads_real_phys_l_conf_matrix = ebrplccm
+eval_birads_real_phys_l_report = ebrplcr
+
+eval_birads_real_phys_m_conf_matrix = ebrpmccm
+eval_birads_real_phys_m_report = ebrpmcr
+
+eval_birads_real_phys_h_conf_matrix = ebrphccm
+eval_birads_real_phys_h_report = ebrphcr
+
+eval_birads_real_phys_t_conf_matrix = ebrptccm
+eval_birads_real_phys_t_report = ebrptcr
+
+# print(eval_birads_real_phys_l_conf_matrix)
+# print(eval_birads_real_phys_l_report)
+
+# print(eval_birads_real_phys_m_conf_matrix)
+# print(eval_birads_real_phys_m_report)
+
+# print(eval_birads_real_phys_h_conf_matrix)
+# print(eval_birads_real_phys_h_report)
+
+# print("========================")
+
+print(eval_birads_real_phys_t_conf_matrix)
+print(eval_birads_real_phys_t_report)
 
 # ==================== END File ==================== #

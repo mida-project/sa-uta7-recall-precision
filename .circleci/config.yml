@@ -7,4 +7,4 @@ jobs:
       - checkout
       - run: pip install --upgrade pip
       - run: pip install -r requirements.txt
-      - run: python src/core/main.py
+      - run: python src/core/setup.py
