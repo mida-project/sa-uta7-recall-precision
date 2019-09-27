@@ -24,7 +24,6 @@ __credits__     = [
 import os
 import json
 import sys
-import requests
 
 from os import path
 from pprint import pprint
