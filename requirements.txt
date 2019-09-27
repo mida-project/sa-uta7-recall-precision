@@ -54,7 +54,6 @@ json-tricks==3.13.1
 jsonschema==2.6.0
 kiwisolver==1.0.1
 MarkupSafe==1.1.0
-matplotlib==3.0.3
 mistune==0.8.4
 mock==2.0.0
 moviepy==1.0.0
