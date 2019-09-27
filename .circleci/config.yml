@@ -5,4 +5,4 @@ jobs:
     working_directory: ~/Git/sa-uta7-recall-precision
     steps:
       - checkout
-      - run: python3 src/core/main.py
+      - run: python src/core/main.py
