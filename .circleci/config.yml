@@ -5,4 +5,5 @@ jobs:
     working_directory: ~/Git/sa-uta7-recall-precision
     steps:
       - checkout
+      - run: pip install -r requirements.txt
       - run: python src/core/main.py
