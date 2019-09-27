@@ -1,9 +1,4 @@
-machine:
-  python:
-    version: 3.5.2
-dependencies:
-  override:
-    - pip install -r requirements.txt
-test:
-  override:
-    - nosetests src/tests/confusionTests.py
+version: 2
+jobs:
+  build:  # required for runs that don't use workflows
+    working_directory: ~/Git/sa-uta7-recall-precision
