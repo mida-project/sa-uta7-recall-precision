@@ -7,4 +7,4 @@ jobs:
       - checkout  # checkout source code to working directory
       - run:
         name: "Do things!"
-        command: python3 src/core/main.py
+        command: python src/core/main.py
