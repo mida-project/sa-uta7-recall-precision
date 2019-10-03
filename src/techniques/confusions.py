@@ -37,6 +37,17 @@ pathRepoSrcAbsPath = os.path.abspath(joinRepoSrcPath)
 # the Python path (wants absolute paths).
 sys.path.append(pathRepoSrcAbsPath)
 
+# Appending variables path
+varsPath = os.path.join(joinRepoSrcPath, 'variables')
+varsAbsPath = os.path.abspath(varsPath)
+sys.path.append(varsAbsPath)
+sys.path.insert(0, varsAbsPath)
+
+# Importing available variables
+from baseSevenRecPrec import *
+from messagesSevenRecPrec import *
+from pathsSevenRecPrec import *
+
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -47,13 +58,13 @@ def confMatrixHeatmap(arrayCounters):
 	logging.debug(arrayCounters)
 	figConfMatrixHeatmap = plt.figure(figsize = (10,10))
 	snsConfMatrixHeatmap = sns.heatmap(arrayCounters, annot = True, cbar = False)
-	snsConfMatrixHeatmap.set(xlabel='Total Number of Actual BIRADS', ylabel='Total Number of Provided BIRADS')
+	snsConfMatrixHeatmap.set(xlabel=coord001, ylabel=coord002)
 
 def confMatrixHeatmapToHtml(arrayCounters, fileName):
 	logging.debug(arrayCounters)
 	figConfMatrixHeatmap = plt.figure(figsize = (10,10))
 	snsConfMatrixHeatmap = sns.heatmap(arrayCounters, annot = True, cbar = False)
-	snsConfMatrixHeatmap.set(xlabel='Total Number of Actual BIRADS', ylabel='Total Number of Provided BIRADS')
+	snsConfMatrixHeatmap.set(xlabel=coord001, ylabel=coord002)
 	plt.savefig(fileName)
 
 # ==================== END File ==================== #

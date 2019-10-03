@@ -72,4 +72,7 @@ crt001 = "CRITICAL: "
 crt002 = "CRITICAL: "
 crt003 = "CRITICAL: "
 
+coord001 = "Actual BIRADS"
+coord002 = "Provided BIRADS"
+
 # ==================== END File ==================== #
