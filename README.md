@@ -5,7 +5,7 @@
 [![MIT](https://flat.badgen.net/github/license/mida-project/sa-uta7-recall-precision)](https://github.com/mida-project/sa-uta7-recall-precision/blob/master/LICENSE)
 [![PyPI](https://img.shields.io/pypi/v/python?style=flat-square)](https://pypi.org/)
 [![Last commit](https://img.shields.io/github/last-commit/mida-project/sa-uta7-recall-precision?style=flat-square)](https://github.com/mida-project/sa-uta7-recall-precision/commits/master)
-[![HitCount](http://hits.dwyl.io/opprDev/medical-image-downloader.svg)](http://hits.dwyl.io/opprDev/medical-image-downloader)
+[![HitCount](http://hits.dwyl.io/mida-project/sa-uta7-recall-precision.svg)](http://hits.dwyl.io/mida-project/sa-uta7-recall-precision)
 [![OpenCollective](https://opencollective.com/oppr/backers/badge.svg?style=flat-square)](#backers)
 [![OpenCollective](https://opencollective.com/oppr/sponsors/badge.svg?style=flat-square)](#sponsors)
 [![Gitter](https://img.shields.io/gitter/room/gitterHQ/gitter.svg?style=flat-square)](https://gitter.im/opprTeam)
@@ -20,7 +20,7 @@ In "*[Precision vs Recall](https://towardsdatascience.com/precision-vs-recall-38
 
 &#8212; [Shruti Saxena](https://towardsdatascience.com/@shrutisaxena0617)
 
-The hereby repository is dependent from the [`sheet-reader`](https://github.com/MIMBCD-UI/sheet-reader) repository, so please first of all clone that to your machine. The work is submitted to top [Human-Computer Interaction (HCI)](https://www.interaction-design.org/literature/topics/human-computer-interaction) conferences of [Computer Science (CS)](http://www.guide2research.com/). Results will be published on both [Current vs Assistant](https://www.overleaf.com/project/5d07b177aa894d7b4d4638e4) ([CHI 2020](https://chi2020.acm.org/)) and [Human-AI Interactions](https://www.overleaf.com/project/5d07b177aa894d7b4d4638e4) ([IUI 2020](https://iui.acm.org/2020/)) papers for higher context. For more information regarding our results, please follow our set of [`notebooks/`](src/notebooks/). You can start by the [`confusions.ipynb`](src/notebooks/confusions.ipynb) file, for example. In the repository [wiki](https://github.com/mida-project/sa-uta7-recall-precision/wiki) we further address several other questions and results.
+The hereby repository is dependent from the [`sheet-reader`](https://github.com/MIMBCD-UI/sheet-reader) repository, so please first of all clone that to your machine. The work is submitted to top [Human-Computer Interaction (HCI)](https://www.interaction-design.org/literature/topics/human-computer-interaction) conferences of [Computer Science (CS)](http://www.guide2research.com/). For more information regarding our results, please follow our set of [`notebooks/`](src/notebooks/). You can start by the [`confusions.ipynb`](src/notebooks/confusions.ipynb) file, for example. In the repository [wiki](https://github.com/mida-project/sa-uta7-recall-precision/wiki) we further address several other questions and results.
 
 <a href="https://www.patreon.com/oppr" target="_blank">
 <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
