@@ -36,7 +36,7 @@ future==0.17.1
 get==2018.11.19
 gevent==1.4.0
 gitdb2==2.0.5
-GitPython==2.1.11
+GitPython==3.1.30
 google-api-python-client==1.7.10
 google-auth==1.6.2
 google-auth-httplib2==0.0.3
