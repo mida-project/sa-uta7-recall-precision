@@ -23,6 +23,28 @@ The hereby repository is dependent from the [`sheet-reader`](https://github.com/
 <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
 </a>
 
+## Citing
+
+We kindly ask **scientific works and studies** that make use of the repository to cite it in their associated publications. Similarly, we ask **open-source** and **closed-source** works that make use of the repository to warn us about this use.
+
+You can cite our work using the following BibTeX entry:
+
+```
+@article{CALISTO2022102285,
+title = {BreastScreening-AI: Evaluating Medical Intelligent Agents for Human-AI Interactions},
+journal = {Artificial Intelligence in Medicine},
+volume = {127},
+pages = {102285},
+year = {2022},
+issn = {0933-3657},
+doi = {https://doi.org/10.1016/j.artmed.2022.102285},
+url = {https://www.sciencedirect.com/science/article/pii/S0933365722000501},
+author = {Francisco Maria Calisto and Carlos Santiago and Nuno Nunes and Jacinto C. Nascimento},
+keywords = {Human-Computer Interaction, Artificial Intelligence, Healthcare, Medical Imaging, Breast Cancer},
+abstract = {In this paper, we developed BreastScreening-AI within two scenarios for the classification of multimodal beast images: (1) Clinician-Only; and (2) Clinician-AI. The novelty relies on the introduction of a deep learning method into a real clinical workflow for medical imaging diagnosis. We attempt to address three high-level goals in the two above scenarios. Concretely, how clinicians: i) accept and interact with these systems, revealing whether are explanations and functionalities required; ii) are receptive to the introduction of AI-assisted systems, by providing benefits from mitigating the clinical error; and iii) are affected by the AI assistance. We conduct an extensive evaluation embracing the following experimental stages: (a) patient selection with different severities, (b) qualitative and quantitative analysis for the chosen patients under the two different scenarios. We address the high-level goals through a real-world case study of 45 clinicians from nine institutions. We compare the diagnostic and observe the superiority of the Clinician-AI scenario, as we obtained a decrease of 27% for False-Positives and 4% for False-Negatives. Through an extensive experimental study, we conclude that the proposed design techniques positively impact the expectations and perceptive satisfaction of 91% clinicians, while decreasing the time-to-diagnose by 3 min per patient.}
+}
+```
+
 ## Pre-Requisites
 
 To run the various methods available on the `src/methods/` directory, it is needed:
@@ -44,7 +66,7 @@ To clone the hereby repository follow the guidelines. It is easy as that.
 1.1. Please clone the repository by typing the command:
 
 ```
-git clone https://github.com/MIMBCD-UI/sa-uta7-recall-precision.git
+git clone https://github.com/mida-project/sa-uta7-recall-precision.git
 ```
 
 1.2. Get inside of the repository directory:
@@ -110,6 +132,18 @@ The following list, represents the set of related repositories for the presented
 - [`statistical-analysis`](https://github.com/MIMBCD-UI/statistical-analysis)
 
 - [`uta7-statistical-analysis-charts`](https://github.com/mida-project/uta7-statistical-analysis-charts)
+
+- [`dataset-uta7-annotations`](https://github.com/MIMBCD-UI/dataset-uta7-annotations)
+
+- [`dataset-uta7-co-variables`](https://github.com/MIMBCD-UI/dataset-uta7-co-variables)
+
+- [`dataset-uta7-dicom`](https://github.com/MIMBCD-UI/dataset-uta7-dicom)
+
+- [`dataset-uta7-heatmaps`](https://github.com/MIMBCD-UI/dataset-uta7-heatmaps)
+
+- [`dataset-uta7-rates`](https://github.com/MIMBCD-UI/dataset-uta7-rates)
+
+- [`dataset-uta11-results`](https://github.com/MIMBCD-UI/dataset-uta11-results)
 
 ### Dataset Resources
 
