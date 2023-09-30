@@ -34,7 +34,7 @@ Flask-Compress==1.4.0
 freetype-py==2.1.0.post1
 future==0.17.1
 get==2018.11.19
-gevent==1.4.0
+gevent==23.9.1
 gitdb2==2.0.5
 GitPython==3.1.35
 google-api-python-client==1.7.10
