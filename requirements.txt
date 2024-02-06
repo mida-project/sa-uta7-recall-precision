@@ -14,7 +14,7 @@ chardet==3.0.4
 chart-studio==1.0.0
 Click==7.0
 configparser==3.7.4
-cryptography==41.0.6
+cryptography==42.0.0
 cycler==0.10.0
 dash==2.15.0
 dash-core-components==0.43.0
