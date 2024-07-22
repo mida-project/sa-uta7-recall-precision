@@ -19,7 +19,7 @@ cycler==0.10.0
 dash==2.15.0
 dash-core-components==0.43.0
 dash-daq==0.1.0
-dash-html-components==0.13.5
+dash-html-components==2.0.0
 dash-renderer==0.18.0
 dash-table==3.1.11
 dash-table-experiments==0.6.0
