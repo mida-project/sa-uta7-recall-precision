@@ -32,7 +32,7 @@ et-xmlfile==1.0.1
 Flask==2.3.2
 Flask-Compress==1.4.0
 freetype-py==2.1.0.post1
-future==0.17.1
+future==0.18.3
 get==2018.11.19
 gevent==23.9.1
 gitdb2==2.0.5
